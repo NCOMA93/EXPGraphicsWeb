@@ -144,7 +144,7 @@ function App() {
       <ScrollToTopButton />
       
       {/* Hero Section */}
-      <header className="relative h-screen flex items-center justify-center">
+      <header className="relative h-screen flex items-center justify-center home">
         <BoothScene />
         <div className="container mx-auto px-6 relative z-10">
           <div className="flex flex-col items-center text-center">
