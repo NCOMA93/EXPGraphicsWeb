@@ -1,6 +1,7 @@
 /* Add styles for the home section */
 .home {
     /* Background image for trade show booth with graphics */
+    background: linear-gradient(45deg, #730073, #000000);
     background-image: url('./src/assets/img/Designer.png');
     background-size: cover;
     background-position: center;
