@@ -109,7 +109,7 @@ function Header() {
           <div className="hidden md:flex space-x-8">
             <button
               onClick={() => scrollToSection('projects')}
-              className={`font-medium hover:text-brand-purple transition-colors ${
+              className={`font-medium hover:text-brand-purple hover:bg-brand-white rounded-full px-2 py-1 transition-colors ${
                 isScrolled ? 'text-gray-600' : 'text-white'
               }`}
             >
@@ -117,7 +117,7 @@ function Header() {
             </button>
             <button
               onClick={() => scrollToSection('pricing')}
-              className={`font-medium hover:text-brand-purple transition-colors ${
+              className={`font-medium hover:text-brand-purple hover:bg-brand-white rounded-full px-2 py-1 transition-colors ${
                 isScrolled ? 'text-gray-600' : 'text-white'
               }`}
             >
@@ -125,7 +125,7 @@ function Header() {
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className={`font-medium hover:text-brand-purple transition-colors ${
+              className={`font-medium hover:text-brand-purple hover:bg-brand-white rounded-full px-2 py-1 transition-colors ${
                 isScrolled ? 'text-gray-600' : 'text-white'
               }`}
             >
