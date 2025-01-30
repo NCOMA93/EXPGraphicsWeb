@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Building2, FileDown, Layers, PackageCheck, ChevronUp } from 'lucide-react';
 import BoothScene from './components/BoothScene';
 import Logo from './components/Logo';
+import EXPAnimation from './components/EXPAnimation';
 
 function PricingCard({ title, price, sizes, description }: { 
   title: string;
@@ -148,7 +149,7 @@ function App() {
         <BoothScene />
         <div className="container mx-auto px-6 relative z-10">
           <div className="flex flex-col items-center text-center">
-            <Logo className="mb-6" white />
+            <EXPAnimation/>
             <h1 className="text-5xl font-bold mb-4 text-white">Transform Your Exhibition Space</h1>
             <p className="text-xl mb-8 max-w-2xl text-white">
               Professional graphics solutions for Octanorm and BeMatrix structures. 
